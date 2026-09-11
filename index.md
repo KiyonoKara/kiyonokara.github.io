@@ -11,12 +11,13 @@ layout: default
 <section>
   <h2>Collection</h2>
   <div class="cards">
-    <a class="card" href="https://kiyonokara.github.io/My-Portfolio/">
+    <a class="card" href="https://kiyonokara.github.io/My-Portfolio/" target="_blank" rel="noopener noreferrer">
       <strong>Portfolio</strong>
       <span>My professional work and projects</span>
     </a>
-    <a class="card" href="https://github.com/KiyonoKara">
+    <a class="card" href="https://github.com/KiyonoKara" target="_blank" rel="noopener noreferrer">
       <strong>GitHub</strong>
+      <span>My GitHub profile</span>
     </a>
     <a class="card" href="{{ "/blog/" | relative_url }}">
       <strong>Blog</strong>
