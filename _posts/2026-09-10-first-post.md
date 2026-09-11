@@ -6,6 +6,5 @@ date: 2026-09-10
 
 <section>
   <h2>{{ page.title }}</h2>
-  <p class="tagline">First post</p>
   <p>I'll write about things I'm building, learning, or just find interesting.</p>
 </section>

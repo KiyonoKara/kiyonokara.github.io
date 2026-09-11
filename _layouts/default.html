@@ -92,7 +92,7 @@
       <div class="nav-links">
         <a href="{{ "/" | relative_url }}">Home</a>
         <a href="{{ "/blog/" | relative_url }}">Blog</a>
-        <a href="https://kiyonokara.github.io/My-Portfolio/">Portfolio</a>
+        <a href="https://kiyonokara.github.io/My-Portfolio/" target="_blank" rel="noopener noreferrer">Portfolio</a>
       </div>
       <button id="theme-toggle" aria-label="Toggle dark mode">
         <svg class="icon icon-moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
@@ -106,7 +106,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>{{ site.time | date: "%Y" }} {{ site.title }}, Built with GitHub Pages</p>
+    <p>{{ site.title }} - {{ site.time | date: "%Y" }} ・ Built with GitHub Pages</p>
   </footer>
 
   <script>
